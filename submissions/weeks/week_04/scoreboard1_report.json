@@ -1,0 +1,104 @@
+{
+ "student": "student",
+ "variant": "shape-two_sided__width-amplitude",
+ "kind": "candidate",
+ "question": "the same, with ties reverted to the baseline value",
+ "spec": {
+  "shape": "two_sided",
+  "pooling": "shared",
+  "drift": "exponential",
+  "profile": "gaussian",
+  "width": "amplitude",
+  "gate": "none",
+  "emission": "threshold"
+ },
+ "fitted_parameters": 25,
+ "held_out_nll_per_hemicycle_year": -26.29547796007411,
+ "between_hemicycle_spread": 18.394829584589598,
+ "paired_vs_baseline": {
+  "mean": -0.8756059119105039,
+  "se": 0.40104262544491664,
+  "median": -0.3295273400120724,
+  "better": 15,
+  "of": 18
+ },
+ "ks_median": 0.04149478510700337,
+ "ks_not_rejected": 9,
+ "count_error_percent": 10.569239367959323,
+ "protocol": {
+  "held_out_unit_contributed": [
+   "clock (own events)",
+   "amplitude (area record)"
+  ],
+  "observation_window": [
+   -6.0,
+   11.0
+  ],
+  "quadrature_mesh": [
+   201,
+   241
+  ]
+ },
+ "plausible": {
+  "19N": {
+   "observed": 1590,
+   "predicted": 1443.19471192055,
+   "centroid_obs": 17.16069182389937,
+   "centroid_model": 15.22482780269239,
+   "spread_obs": 8.507418494423913,
+   "spread_model": 7.738308352649825
+  },
+  "19S": {
+   "observed": 1121,
+   "predicted": 1254.4600020151427,
+   "centroid_obs": 16.36842105263158,
+   "centroid_model": 15.090165389191382,
+   "spread_obs": 7.604571117406902,
+   "spread_model": 7.504287932876031
+  }
+ },
+ "fingerprint": {
+  "recipe": {
+   "mesh": [
+    201,
+    241
+   ],
+   "domain": [
+    0.0,
+    60.0
+   ],
+   "window": [
+    -6.0,
+    11.0
+   ],
+   "folds": [
+    12,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    21,
+    23
+   ],
+   "withheld": [
+    16,
+    20,
+    22
+   ],
+   "analysis_set": [
+    12,
+    23,
+    30.0
+   ],
+   "gauge": [
+    1.0,
+    1.0,
+    15.0
+   ],
+   "headline_amplitude": "area record"
+  },
+  "digest": "5e55384fbc54"
+ }
+}
